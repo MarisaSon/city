@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>City</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Выберите правильный вариант ответа!</h1>
+    <form>
+      <div id="box">
+        <label>1. Столица Китая?</label>
+        <input type="radio" name="chine" /> Токио
+        <input type="radio" name="chine" /> Шанхай
+        <input type="radio" name="chine" id="pekin" /> Пекин
+        <input type="radio" name="chine" /> Ханчжоу
+      </div>
+
+      <div id="box">
+        <label>2. Столица Великобритании?</label>
+        <input type="radio" name="britain" /> Эдинбург
+        <input type="radio" name="britain" />&nbsp;Кембридж
+        <input type="radio" name="britain" /> Оксфорд
+        <input type="radio" name="britain" id="london" /> Лондон
+      </div>
+      <div id="box">
+        <label>3. Столица Австралии?</label>
+        <input type="radio" name="australia" /> Мельбурн
+        <input type="radio" name="australia" id="sidney" /> Сидней
+        <input type="radio" name="australia" /> Нельсон
+        <input type="radio" name="australia" /> Сингапур
+      </div>
+
+      <div id="box">
+        <label>4. Столица Италии?</label>
+        <input type="radio" name="italy" id="rim" /> Рим
+        <input type="radio" name="italy" /> Милан
+        <input type="radio" name="italy" /> Венеция
+        <input type="radio" name="italy" /> Флоренция
+      </div>
+
+      <div id="box">
+        <label>5. Столица Австрии?</label>
+        <input type="radio" name="austria" /> Зальцбург
+        <input type="radio" name="austria" id="vena" /> Вена
+        <input type="radio" name="austria" /> Паттайя
+        <input type="radio" name="austria" /> Линц
+      </div>
+      <div id="box">
+        <label>6. Столица Аргентины?</label>
+        <input type="radio" name="argentina" /> Лиссабон
+        <input type="radio" name="argentina" /> Порту
+        <input type="radio" name="argentina" id="byenos" /> Буэнос-Айрес
+        <input type="radio" name="argentina" /> Сальта
+      </div>
+      <button type="submit" class="btn">Посчитать очки</button>
+      <p id="point"></p>
+    </form>
+
+    <script src="index.js"></script>
+  </body>
+</html>

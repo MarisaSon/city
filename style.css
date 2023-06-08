@@ -1,0 +1,83 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1547841243-eacb14453cd9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+h1{
+    margin: 50px;
+    font-family: 'Prompt', sans-serif;
+    color:#205295 ;
+}
+
+form {
+  width: 850px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 18px;
+  font-family: 'Prompt', sans-serif;
+ 
+ 
+}
+
+label {
+  padding: 10px;
+  margin: 6px;
+  font-weight: bold;
+}
+
+
+#box {
+  padding: 20px;
+}
+
+.btn {
+  width: 20%;
+  border-radius: 45px;
+  border: 1px solid white;
+  padding: 10px;
+  font-size: 18px;
+  margin: 45px;
+  font-family: 'Prompt', sans-serif;
+  background-color:#2C74B3;
+  color: white;
+}
+
+#point{
+   
+    margin-top: 55px;
+}
+
+@media all and (max-width: 500px) {
+  h1 {
+   font-size: 18px;
+   margin: 25px;
+  }
+ 
+
+  form {
+    font-size: 14px;
+    width: 400px;
+  }
+  #point {
+    margin-top: 15px;
+   
+  }
+
+  label{
+    margin: 3px;
+    padding: 3px;
+    
+  }
+
+  .btn{
+    font-size: 15px;
+    width: 25%;
+  }
+
+ 
+
+ 
+}
